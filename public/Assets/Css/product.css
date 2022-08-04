@@ -1,0 +1,131 @@
+.product{
+    background-image: url('https://cartzilla.createx.studio/img/food-delivery/restaurants/single/pt-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.page-nav{
+    margin-top: -3rem;
+    max-width: fit-content;
+}
+.page-nav-wrapper{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%);
+}
+.page-menu{
+    width: 100%;
+}
+.nav-tabs-product{
+    width: 100%;
+}
+.page-menu.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #fe696a;
+    background-color: transparent;
+}
+.title-product{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 40px;
+}
+.pt-3{
+    padding-top: 1rem;
+}
+.product-card{
+    border: 1px solid #e3e9ef ;
+    padding-bottom: 0.5rem;
+}
+.size-product{
+    display: flex;
+    margin-bottom: 0.25rem;
+    justify-content: space-between;
+}
+
+.option-product{
+    display: flex;
+    margin-bottom: 0.25rem;
+    justify-content: space-between;
+}
+.info-product{
+    display: flex;
+    margin-top: 0.25rem;
+    justify-content: space-between;
+}
+.btn-group {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+
+}
+.btn-check {
+    position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+}
+.btn-group .btn {
+    position: relative;
+    flex: 1 1 auto;
+}
+.btn-outline-primary {
+    color: #4b566b;
+    border: 1px solid #e3e9ef;
+}
+.btn-size {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    margin: 2px;
+    border-radius: 5px;
+}
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 50%);
+}
+.btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary:active {
+    color: #fe696a;
+    border-color: #fe696a;
+}
+.price-product{
+    padding-top: 20px;
+}
+.menu{
+    display: none;
+}
+.menu.active{
+    display: block;
+}
+@media (max-width:576px){
+    .col-sm-6-customer{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .menu{
+        text-align: center;
+        padding: 10px 10px;
+        display: block;
+        
+    }
+    .page-menu{
+        display: block;
+    }
+    .nav-tabs-product{
+        display: none;
+    }
+    .drop-menu-product{
+        right: 20px;
+    }
+  
+}

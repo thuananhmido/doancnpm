@@ -1,0 +1,144 @@
+.category{
+    background-image: url('https://cartzilla.createx.studio/img/food-delivery/category/pt-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.breadcrumb-menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    list-style: none;
+}
+.breadcrumb-light .breadcrumb-item>a {
+    color: #fff;
+}
+
+.text-nowrap {
+    white-space: nowrap !important;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: var(--div, "/");
+    padding-left: 0.5rem;
+}
+.breadcrumb-light .breadcrumb-item.active {
+    color: rgba(255,255,255,.6);
+}
+
+.breadcrumb-item.active {
+    cursor: default;
+}
+.breadcrumb-item.active {
+    color: #7d879c;
+    cursor: none;
+}
+
+  .wrapper{
+    width: 100%;
+    overflow: scroll;
+  }
+  .horizontal-scrolling__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .horizontal-scrolling__card {
+    display: block;
+  }
+  .item-sm{
+    width: 140px;
+    height: 140px;
+    padding-top: 30px;
+  }
+.category-item{
+    --bs-bg-opacity: 1;
+    background-color: #f6f9fc !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title-cate{
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1rem;
+}
+a.title{
+    color:#373f50
+}
+.categories-product{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.pt-3{
+    padding-top: 1rem;
+}
+.product-card {
+    padding-bottom: 1.25rem;
+    position: relative;
+    border: 0;
+    transition: all .15s ease-in-out;
+    padding-bottom: 0.5rem ;
+    height: 100%;
+    box-shadow: 0 0.25rem 0.5625rem -0.0625rem rgb(0 0 0 / 3%), 0 0.275rem 1.25rem -0.0625rem rgb(0 0 0 / 5%) ;
+
+}
+.product-card .badge {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 5;
+}
+.badge-price{
+    display: inline-block;
+    padding: 0.25em 0.625em;
+    font-size: 0.75em;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.175rem;
+    right: 0.75rem;
+    left: auto;
+    background-color: rgb(66, 214, 151);
+}
+.restaurant-item-cate{
+    background-color: #fff;
+    border-radius: 0.4rem;
+    padding-top: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 175px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 50%;
+    margin: -25px 0 0 -89px;
+    height: fit-content;
+}
+
+.restaurant-images{
+    display: block;
+    border-radius: 0.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.card-category{
+    padding-top: 100px;
+    text-align: center;
+}
+.category-title{
+    color: #fff;
+    margin-top: 10px;
+}
+.retaurant-title{
+    color:#373f50
+}

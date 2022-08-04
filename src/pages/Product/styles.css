@@ -1,0 +1,30 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 200ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay .cancel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+@media (max-width : 576px) {
+    .modal{
+        width: 98%;
+    }
+    .modal-dialog{
+        margin-left: 10px;
+    }
+}
